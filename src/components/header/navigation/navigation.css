@@ -1,0 +1,63 @@
+.navigation {
+    display: flex;
+    width: 100vw;
+    height: 7.5vh;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+}
+.logo {
+    display: flex;
+    cursor: pointer;
+    width: 5%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.logo object {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3C4043;
+    box-shadow: 5px 5px 10px 0px rgba(43, 49, 53, 0.75), -5px -5px 10px 0px rgba(255, 255, 255, 0.20);
+    margin-left: 15px;
+}
+.navigation_menu {
+    display: flex;
+    width: 75%;
+    height: 100%;
+    justify-content: center;
+}
+.menu_wrap {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu_el {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3C4043;
+    box-shadow: 5px 5px 10px 0px rgba(43, 49, 53, 0.75), -5px -5px 10px 0px rgba(255, 255, 255, 0.20);
+    margin-left: 15px;
+}
+.endless {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.endless_el {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3C4043;
+    box-shadow: 5px 5px 10px 0px rgba(43, 49, 53, 0.75), -5px -5px 10px 0px rgba(255, 255, 255, 0.20);
+    margin-left: 15px;
+}

@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+#root {
+    width: 100vw;
+    height: 100vh;
+    background-color: #3C4043;
+}
+.App {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    flex-direction: column;
+}
