@@ -1,0 +1,53 @@
+.main_wrap {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+.popular {
+    display: flex;
+    width: 100%;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+}
+.main_h {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.main_h:hover .hidden_h{
+    opacity: 1  ;
+}
+.hidden_h {
+    color: #74BAF7;
+    margin-left: 5%;
+    opacity: 0;
+    transition: 0.3s;
+}
+.mov_popular {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.movie {
+    display: flex;
+    width: 12.5%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: #3C4043;
+    box-shadow: 5px 5px 10px 0px rgb(43 49 53 / 75%), -5px -5px 10px 0px rgb(255 255 255 / 20%);
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.movie:hover {
+    width: 15%;
+    height: 100%;
+}

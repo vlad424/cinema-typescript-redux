@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
 #root {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-color: #3C4043;
 }
 .App {
@@ -19,4 +21,11 @@
     width: 100vw;
     height: 50vh;
     flex-direction: column;
+}
+.main {
+    width: 100vw;
+    height: 200vh;
+}
+::-webkit-scrollbar {
+    width: 0px;
 }
