@@ -16,6 +16,16 @@ const Movies = () => {
             {content: ".../", img: "null", id: 42},
             {content: ".../", img: "null", id: 3},
             {content: ".../", img: "null", id: 2},
+            {content: ".../", img: "null", id: 2},
+            {content: ".../", img: "null", id: 2},
+            {content: ".../", img: "null", id: 12}
+        ],
+        'collected for you': [
+            {content: ".../", img: "null", id: 42},
+            {content: ".../", img: "null", id: 3},
+            {content: ".../", img: "null", id: 2},
+            {content: ".../", img: "null", id: 2},
+            {content: ".../", img: "null", id: 2},
             {content: ".../", img: "null", id: 12}
         ]
     }
@@ -24,21 +34,55 @@ const Movies = () => {
         <div className='main_wrap'>
             <div className='popular'>
                 <span className="main_h">
-                    <p>POPULAR</p>
-                    <p className="hidden_h">
+                    <p onClick={() => alert("see all popular films")}>POPULAR</p>
+                    <span className="hidden_h">
                         {'#'}
-                    </p>
+                    </span>
                 </span>
-                <div className="mov_popular">
+                <div className="mov">
                     {movie.popular.map(mov => {
                     return (
                         <div className="movie">
-                            {mov.id}
+                            <div className="movie_hidden">{mov.content}</div>
+                            <div className="movie_content">{mov.id}</div>
                         </div>
                     );})}
                 </div>
             </div>
-
+            <div className="best">
+                <span className="main_h">
+                    <p onClick={() => alert("see all best films")}>APPROVED BY ANALYSTS</p>
+                    <span className="hidden_h">
+                        {'#'}
+                    </span>
+                </span>
+                <div className="mov">
+                    {movie.best.map(mov => {
+                    return (
+                        <div className="movie">
+                            <div className="movie_hidden">{mov.content}</div>
+                            <div className="movie_content">{mov.id}</div>
+                        </div>
+                    );})}
+                </div>
+            </div>
+            <div className="fyou">
+                <span className="main_h">
+                    <p onClick={() => alert("see all for u films")}>COLLECTED FOR YOU</p> 
+                    <span className="hidden_h">
+                        {'#'}
+                    </span>
+                </span>
+                <div className="mov">
+                    {movie.best.map(mov => {
+                    return (
+                        <div className="movie">
+                            <div className="movie_hidden">{mov.content}</div>
+                            <div className="movie_content">{mov.id}</div>
+                        </div>
+                    );})}
+                </div>
+            </div>
         </div>
     );
 };

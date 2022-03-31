@@ -25,6 +25,7 @@
 .main {
     width: 100vw;
     height: 200vh;
+    margin-top: 5%;
 }
 ::-webkit-scrollbar {
     width: 0px;

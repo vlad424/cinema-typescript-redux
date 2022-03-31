@@ -45,6 +45,10 @@
     background-color: #3C4043;
     box-shadow: 5px 5px 10px 0px rgba(43, 49, 53, 0.75), -5px -5px 10px 0px rgba(255, 255, 255, 0.20);
     margin-left: 15px;
+    transition: 0.3s;
+}
+.menu_el:hover {
+    box-shadow: 5px 5px 10px 0px rgba(43, 49, 53, 0.75), -5px -5px 10px 0px rgba(255, 255, 255, 0.5);
 }
 .endless {
     display: flex;
